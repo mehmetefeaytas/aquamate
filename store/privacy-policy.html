@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AquaMate — Gizlilik Politikası</title>
+<style>
+  :root { color-scheme: light; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f4f8fb;
+    color: #1e293b;
+    line-height: 1.65;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; padding: 40px 22px 72px; }
+  header {
+    background: linear-gradient(135deg, #2f80ed, #56ccf2);
+    border-radius: 24px;
+    padding: 34px 28px;
+    color: #fff;
+    margin-bottom: 28px;
+    box-shadow: 0 14px 34px rgba(47,128,237,.25);
+  }
+  header h1 { margin: 0 0 6px; font-size: 26px; letter-spacing: -.4px; }
+  header p { margin: 0; font-size: 14px; opacity: .92; }
+  h2 { font-size: 18px; margin: 32px 0 10px; letter-spacing: -.2px; }
+  h3 { font-size: 15px; margin: 22px 0 6px; }
+  p, li { font-size: 14.5px; }
+  ul { padding-left: 20px; }
+  li { margin-bottom: 6px; }
+  .card {
+    background: #fff;
+    border-radius: 18px;
+    padding: 20px 22px;
+    box-shadow: 0 4px 18px rgba(47,128,237,.07);
+    margin: 16px 0;
+  }
+  .highlight {
+    border-left: 4px solid #10b981;
+    background: #ecfdf5;
+    border-radius: 12px;
+    padding: 16px 18px;
+    margin: 18px 0;
+    font-size: 14.5px;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 14px; margin: 12px 0; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid #e8eff7; }
+  th { background: #f1f7fe; font-size: 13px; }
+  code {
+    background: #eef4fb;
+    padding: 1px 6px;
+    border-radius: 5px;
+    font-size: 13px;
+  }
+  footer {
+    margin-top: 36px;
+    font-size: 12.5px;
+    color: #64748b;
+    text-align: center;
+  }
+  a { color: #2f80ed; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>AquaMate — Gizlilik Politikası</h1>
+    <p>Son güncelleme: 6 Kasım 2026 · Sürüm 1.0</p>
+  </header>
+
+  <div class="highlight">
+    <strong>Özet:</strong> AquaMate hiçbir kişisel veri toplamaz, sunucuya
+    göndermez, reklam göstermez ve hesap açmanı istemez. Girdiğin tüm veriler
+    yalnızca kendi cihazında saklanır.
+  </div>
+
+  <h2>1. Hangi veriler işleniyor?</h2>
+  <p>
+    AquaMate bir hidrasyon, kafein ve ambalaj atığı takip uygulamasıdır. Uygulama
+    içinde girdiğin bilgiler şunlardır:
+  </p>
+  <ul>
+    <li>İçtiğin içeceğin türü, miktarı ve saati,</li>
+    <li>İçeceği hangi kaptan içtiğin (matara, PET şişe, karton bardak vb.),</li>
+    <li>Ambalajı geri dönüşüme atıp atmadığın bilgisi,</li>
+    <li>Selamlamada kullanılan görünen ad (isteğe bağlı),</li>
+    <li>Kilo, günlük egzersiz süresi, uyku saati ve kafein limiti gibi
+        kişiselleştirme ayarları,</li>
+    <li>Eklediğin özel içecek tanımları.</li>
+  </ul>
+
+  <h2>2. Veriler nerede saklanıyor?</h2>
+  <p>
+    Tüm veriler cihazının uygulama alanındaki yerel SQLite veritabanında
+    (<code>aquamate.db</code>) tutulur. Bu veriler:
+  </p>
+  <ul>
+    <li>hiçbir sunucuya, buluta veya analiz servisine aktarılmaz,</li>
+    <li>üçüncü taraflarla paylaşılmaz veya satılmaz,</li>
+    <li>reklam veya profilleme amacıyla kullanılmaz.</li>
+  </ul>
+  <p>
+    Uygulamayı cihazından sildiğinde bu veriler de kalıcı olarak silinir.
+    Uygulama içinde Ayarlar bölümünden tüm kayıtları sıfırlayabilir, profil
+    kartından görünen adını kaldırabilirsin.
+  </p>
+
+  <h2>3. İzinler</h2>
+  <table>
+    <tr><th>İzin</th><th>Amaç</th><th>Zorunlu mu?</th></tr>
+    <tr>
+      <td>Bildirimler</td>
+      <td>Su molası hatırlatmaları, geri dönüşüm hatırlatması ve haftalık
+          sürdürülebilirlik özeti</td>
+      <td>Hayır</td>
+    </tr>
+  </table>
+  <p>
+    Bildirim izni vermezsen uygulama tamamen çalışmaya devam eder; yalnızca
+    hatırlatmalar gönderilmez. İzni dilediğin zaman cihaz ayarlarından veya
+    uygulama içindeki Ayarlar ekranından kapatabilirsin.
+  </p>
+
+  <h2>4. Analitik, reklam ve izleme</h2>
+  <p>
+    AquaMate'te üçüncü taraf analitik SDK'sı, reklam ağı, çökme raporlama
+    servisi veya izleme (tracking) teknolojisi bulunmaz. Uygulama çevrimdışı
+    çalışır ve veri toplamaz.
+  </p>
+
+  <h2>5. Çocukların gizliliği</h2>
+  <p>
+    Uygulama 4 yaş ve üzeri kullanıcılar için uygundur ve hiçbir kişisel veri
+    toplamadığı için çocuklardan bilerek veri toplama durumu söz konusu
+    değildir.
+  </p>
+
+  <h2>6. Sağlıkla ilgili sorumluluk reddi</h2>
+  <p>
+    AquaMate'in sunduğu hidrasyon hedefleri, kafein değerleri ve atık/CO₂
+    tahminleri genel bilgilendirme amaçlıdır. Tanı, tedavi veya tıbbi tavsiye
+    yerine geçmez. Sağlık durumuna ilişkin kararlar için bir sağlık
+    profesyoneline danışmalısın.
+  </p>
+
+  <h2>7. Değişiklikler</h2>
+  <p>
+    Bu politika güncellenirse bu sayfada yeni sürüm tarihiyle yayınlanır.
+    Veri toplama davranışını etkileyen bir değişiklik olması durumunda uygulama
+    içinde bilgilendirme yapılır.
+  </p>
+
+  <h2>8. İletişim</h2>
+  <div class="card">
+    <p style="margin:0">
+      Sorular ve geri bildirim:
+      <a href="mailto:efeyapiyor@gmail.com">efeyapiyor@gmail.com</a><br>
+      Geliştirici: Mehmet Efe Aytaş ·
+      <a href="https://linktr.ee/efeyapiyor" rel="noopener">linktr.ee/efeyapiyor</a>
+    </p>
+  </div>
+
+  <footer>
+    AquaMate 1.0.0 · Yerel veri · Reklamsız · Hesapsız
+  </footer>
+</div>
+</body>
+</html>
