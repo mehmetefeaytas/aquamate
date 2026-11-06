@@ -40,6 +40,8 @@ Ayarlar     → hedef, kafein limiti, uyku saati, sürdürülebilirlik, bildirim
 ## Kurulum
 
 ```bash
+git clone https://github.com/mehmetefeaytas/aquamate.git
+cd aquamate
 flutter pub get
 flutter run
 ```
@@ -57,8 +59,9 @@ flutter test      # 67 birim + widget testi
 
 Son yükleme: **1.0.0 (build 5)** — IC iç grubunda `IN_BETA_TESTING`.
 
-APK indirme (arm64, 72 saat geçerli): <https://litter.catbox.moe/qe0l99.apk>
-Yerel kopyalar: `dist/aquamate-1.0.0-{arm64-v8a,armeabi-v7a,x86_64}.apk`
+APK indirme (kalıcı link):
+[**AquaMate-1.0.0-build5-arm64-v8a.apk**](https://github.com/mehmetefeaytas/aquamate/releases/download/v1.0.0/AquaMate-1.0.0-build5-arm64-v8a.apk)
+— [tüm sürümler](https://github.com/mehmetefeaytas/aquamate/releases/latest)
 
 ```bash
 ./tool/build_release.sh ipa

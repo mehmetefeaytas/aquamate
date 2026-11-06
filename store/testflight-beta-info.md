@@ -45,7 +45,7 @@ Yeni bir TestFlight yüklemesinde **mutlaka** `+N` değerini artır.
 | Dosya | `dist/aquamate-1.0.0-arm64-v8a.apk` (20 MB) |
 | versionCode | 2005 |
 | SHA-256 | `f0c690805dd84c1f4f3c5996d35d2a7b852f5e713ef595ec09a0dc2781d6233b` |
-| İndirme linki | https://litter.catbox.moe/qe0l99.apk (72 saat geçerli) |
+| İndirme linki | https://github.com/mehmetefeaytas/aquamate/releases/download/v1.0.0/AquaMate-1.0.0-build5-arm64-v8a.apk |
 
 Diğer ABI'ler aynı klasörde: `-armeabi-v7a.apk` (eski cihazlar),
 `-x86_64.apk` (emülatör). Kalıcı link için GitHub Releases kullanılması önerilir.
